@@ -12,6 +12,7 @@ formElm.addEventListener("submit", (e) => {
     `
 })
 
+
 const boxElm = document.getElementById("mail")
 boxElm.addEventListener("input", (e) => {
     if (Number(e.target.value.length) === 0) {
